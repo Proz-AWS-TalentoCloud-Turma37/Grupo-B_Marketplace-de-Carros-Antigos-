@@ -1,6 +1,6 @@
 # Marketplace de Carros Antigos
 
-## Sistema desenvolvido por:
+## Sistema desenvolvido por: Adamis, Filipe, Rúbia e Suzana
 
 ### subtitulo
 
