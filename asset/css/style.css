@@ -1,0 +1,9 @@
+*{
+    margin:0;
+    padding:0; 
+}
+#corNav{
+    background-color: #031634;
+    color:#fff;
+}
+.fontwhite li{color: #fff;}
