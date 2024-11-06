@@ -1,0 +1,104 @@
+body {
+    font-family: 'Avenir', sans-serif;
+    color: #353D40;
+    background-color: #ffffff;
+}
+
+h1, h2, h3 {
+    font-family: 'Georgia', serif;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #003F63;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #F2B138;
+}
+
+/* Botões e formulários */
+button, .btn {
+    background-color: #F2B138;
+    color: #ffffff;
+}
+
+button:hover, .btn:hover {
+    background-color: #A1A5A6;
+}
+Páginas adicionais
+
+body {
+    font-family: Avenir, sans-serif;
+    background-color: #ffffff;
+    color: #202527;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.gallery-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #202527;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.card {
+    border: 1px solid #d9d9d9;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card-body {
+    padding: 15px;
+}
+
+.card-title {
+    font-size: 18px;
+    color: #003F63;
+    margin: 0 0 10px;
+}
+
+.card-text {
+    font-size: 16px;
+    color: #A1A5A6;
+    margin: 0;
+}
+
+/* Media Queries para Responsividade */
+
+/* Para telas médias (tablets) */
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Para telas pequenas (celulares) */
+@media (max-width: 480px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+}
