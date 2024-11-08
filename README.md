@@ -4,7 +4,7 @@
 
 ### Sobre
 
-> descrição onde coloca o texto
+Aqui, a paixão por carros clássicos ganha vida. Oferecemos uma seleção exclusiva de veículos antigos para você viver experiências inesquecíveis nas ruas. Seja para um evento especial, uma sessão de fotos ou simplesmente para curtir a nostalgia sobre rodas, nossos carros restaurados e bem cuidados prometem transportar você a uma época de elegância e estilo. Explore nosso catálogo e descubra a emoção de dirigir um clássico!
 
  ### Requisitos funcionais 
 
