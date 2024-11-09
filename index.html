@@ -12,52 +12,56 @@
     <section>
 
         <header>
-        <!-- Navbar Responsiva -->
-        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark ">
-            <div class="container">
-                <!-- Logo do site ou nome -->
-                <a class="navbar-brand" href="#">MinhaLogo</a>
-
-            
-
-                <!-- Botão de colapso para telas menores -->
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <!-- Itens do menu -->
-                <div class="collapse navbar-collapse fontwhite" id="navbarNav">
-                    <ul class="navbar-nav ms-auto fontwhite">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Início</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Sobre</a>
-                        </li>
-                        
-                        <!-- Item com Submenu -->
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Serviços
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">Consultoria</a></li>
-                                <li><a class="dropdown-item" href="#">Desenvolvimento</a></li>
-                                <li><a class="dropdown-item" href="#">Suporte Técnico</a></li>
-                                <li><hr class="dropdown-divider"></li>
-                                <li><a class="dropdown-item" href="#">Outros Serviços</a></li>
-                            </ul>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contato</a>
-                        </li>
-                    </ul>
+            <!-- Navbar Responsiva -->
+            <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+                <div class="container">
+                    <!-- Logo do site ou nome -->
+                    <a class="navbar-brand" href="#">MinhaLogo</a>
+        
+                    <!-- Botão de colapso para telas menores -->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+        
+                    <!-- Itens do menu -->
+                    <div class="collapse navbar-collapse fontwhite" id="navbarNav">
+                        <ul class="navbar-nav ms-auto fontwhite">
+                            <li class="nav-item">
+                                <a class="nav-link custom-button active" aria-current="page" href="#">Início</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link custom-button" href="#">Sobre</a>
+                            </li>
+                            
+                            <!-- Item com Submenu -->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle custom-button" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Serviços
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item custom-button" href="#">Aluguel</a></li>
+                                    <li><a class="dropdown-item custom-button" href="#">Veículos a venda</a></li>
+                                    <li><a class="dropdown-item custom-button" href="#">Fale Conosco</a></li>                                    
+                                    <li><a class="dropdown-item custom-button" href="#">curadoria</a></li>
+                                </ul>
+                            </li>
+        
+                            <!-- Botão de cadastro -->
+                            <li class="nav-item">
+                                <a class="nav-link custom-button" href="#formularioCadastro">Cadastro</a>
+                            </li>
+        
+                            <li class="nav-item">
+                                <a class="nav-link custom-button" href="#">Contato</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-        </nav>
+            </nav>
         </header>
         <!-- fim menu nav -->
+
+        
 
          <!--início caroussel-->
            
@@ -76,7 +80,7 @@
                 <img src="asset/img/80/Passat_pointer.png?text=Slide+2" class="d-block w-100" alt="Slide 2">
                 <div class="carousel-caption d-none d-md-block">
                 <h5>Carros para passeios e eventos</h5>
-                <p>Alugue umclássico e se divirta peas ruas!</p>
+                <p>Alugue um clássico e se divirta peas ruas!</p>
                 </div>
             </div>
             <!-- Slide 3 -->
@@ -158,5 +162,35 @@
     </div>
     </div>
 
+<!-- Seção de Cadastro -->
+<section id="formularioCadastro" class="container py-5">
+    <h2 class="text-center mb-4">Cadastro de Cliente</h2>
+    <form id="formCadastro" onsubmit="return cadastrarCliente(event)">
+        <div class="form-group">
+            <label for="nome">Nome</label>
+            <input type="text" class="form-control" id="nome" required>
+        </div>
+        <div class="form-group">
+            <label for="cpf">CPF</label>
+            <input type="text" class="form-control" id="cpf" required>
+        </div>
+        <div class="form-group">
+            <label for="telefone">Telefone</label>
+            <input type="tel" class="form-control" id="telefone" required>
+        </div>
+        <div class="form-group">
+            <label for="email">E-mail</label>
+            <input type="email" class="form-control" id="email" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar Cadastro</button>
+    </form>
 </section>
 
+<script>
+    function cadastrarCliente(event) {
+        event.preventDefault();
+        const nome = document.getElementById('nome').value;
+        alert(`Cliente ${nome} cadastrado com sucesso!`);
+        document.getElementById('formCadastro').reset();
+    }
+</script>
