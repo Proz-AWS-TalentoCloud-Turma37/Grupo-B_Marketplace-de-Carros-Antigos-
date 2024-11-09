@@ -1,9 +1,15 @@
-*{
-    margin:0;
-    padding:0; 
+body {
+    font-family: 'Avenir', sans-serif;
+    color: #353D40;
+    background-color: #ffffff;
 }
-#corNav{
-    background-color: #031634;
-    color:#fff;
+
+h1, h2, h3 {
+    font-family: 'Georgia', serif;
 }
-.fontwhite li{color: #fff;}
+
+.carousel-item img {
+    max-height: 400px;
+    width: 100%;
+    object-fit: cover;
+}
