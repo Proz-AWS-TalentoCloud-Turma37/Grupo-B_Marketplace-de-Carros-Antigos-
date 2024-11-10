@@ -1,0 +1,32 @@
+body {
+    font-family: 'Avenir', sans-serif;
+    color: #353D40;
+    background-color: #ffffff;
+}
+
+h1, h2, h3 {
+    font-family: 'Georgia', serif;
+}
+
+.carousel-item img {
+    max-height: 400px;
+    width: 100%;
+    object-fit: cover;
+}
+
+<style>
+    /* Estilo para todos os botões */
+    .custom-button {
+        font-size: 1.1rem;      /* Tamanho da fonte */
+        padding: 8px 16px;      /* Espaçamento interno */
+        text-align: center;     /* Alinhamento do texto */
+        border-radius: 5px;     /* Bordas arredondadas */
+        margin: 0 auto;         /* Centraliza em elementos que permitem */
+        display: block;         /* Exibe como bloco */
+    }
+
+    /* Ajustes para botões da navbar */
+    .navbar .nav-link.custom-button {
+        color: #ffffff;         /* Cor do texto dos botões */
+    }
+</style>
