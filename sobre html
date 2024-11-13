@@ -1,1 +1,227 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I Classics - Carros Antigos para Aluguel</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Estilo geral */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #001f3d; /* Azul marinho */
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1, h2, h3 {
+            color: #f1f1f1;
+            margin: 0 0 15px;
+        }
+
+        p {
+            font-size: 1.1em;
+            line-height: 1.6em;
+            margin: 0 15px 20px 15px;
+            text-align: justify;
+        }
+
+        a {
+            color: #f1f1f1;
+            text-decoration: none;
+        }
+
+        /* Cabeçalho */
+        header {
+            padding: 20px 0;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            letter-spacing: 2px;
+            margin: 0;
+            text-align: left;
+            padding-left: 20px;
+        }
+
+        /* Navbar personalizada */
+        .navbar {
+            background-color: white; /* Fundo branco */
+            color: black; /* Texto preto */
+        }
+
+        .navbar a.nav-link {
+            color: black !important; /* Letra preta */
+        }
+
+        .navbar-nav .nav-item:hover .nav-link {
+            color: #f39c12; /* Cor dourada ao passar o mouse */
+        }
+
+        /* Seção sobre */
+        .about {
+            padding: 50px 15px;
+            background-color: #002240; /* Azul mais claro */
+        }
+
+        .about h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            text-align: left;
+            padding-left: 20px;
+        }
+
+        .about p {
+            text-align: justify;
+        }
+
+        /* Seção de Carros */
+        .decades {
+            background-color: #003366;
+            padding: 50px 15px;
+        }
+
+        .decades h3 {
+            font-size: 2.2em;
+            text-align: left;
+            padding-left: 20px;
+        }
+
+        .decades .decade {
+            margin: 30px 0;
+        }
+
+        /* Botão de ação */
+        .btn {
+            display: inline-block;
+            padding: 10px 30px;
+            background-color: #f1c40f; /* Amarelo dourado */
+            color: #003366;
+            font-size: 1.2em;
+            border-radius: 5px;
+            margin-top: 20px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: background-color 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #f39c12;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #001f3d;
+            color: #f1f1f1;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <!-- Navbar Responsiva -->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+            <div class="container">
+                <!-- Logo do site ou nome -->
+                <a class="navbar-brand" href="#">I Classics</a>
+
+                <!-- Botão de colapso para telas menores -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Itens do menu -->
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Início</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sobre">Sobre</a>
+                        </li>
+
+                        <!-- Item com Submenu -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Carros
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#carros">Década de 60</a></li>
+                                <li><a class="dropdown-item" href="#carros">Década de 70</a></li>
+                                <li><a class="dropdown-item" href="#carros">Década de 80</a></li>
+                                <li><a class="dropdown-item" href="#carros">Década de 90</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contato">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Seção Sobre -->
+    <section id="sobre" class="about">
+        <h2>Sobre o I Classics</h2>
+        <p>Bem-vindo ao <strong>I Classics</strong>, a sua plataforma de confiança para alugar carros clássicos e transformar qualquer evento em uma experiência inesquecível. Nossa missão é proporcionar aos nossos clientes a oportunidade de reviver os momentos mais icônicos das décadas de 60, 70, 80 e 90, com a elegância e sofisticação que só os automóveis vintage podem oferecer.</p>
+        
+        <p><strong>I Classics</strong> é mais do que apenas aluguel de carros antigos — é uma verdadeira viagem no tempo. Nossa frota é composta por modelos raros e exclusivos, cada um escolhido a dedo para trazer à tona a essência de um período único da história automotiva. Com carros que vão de <em>Chevrolet Impalas</em> dos anos 60 a <em>Mitsubishi Eclipse</em> dos anos 90, garantimos que você possa reviver a magia de cada década de uma forma autêntica e inesquecível.</p>
+
+        <h3>Nosso Compromisso com a Tradição e Qualidade</h3>
+        <p>Em <strong>I Classics</strong>, a tradição é um valor fundamental. Desde o início de nossa jornada, temos nos dedicado a manter a autenticidade e o cuidado em cada carro da nossa frota. Cada veículo foi restaurado com precisão, respeitando as características originais e garantindo o máximo em segurança e conforto. Nosso compromisso com a qualidade não é apenas uma promessa, mas uma prática diária: inspecionamos e mantemos nossos carros de maneira meticulosa para garantir que eles ofereçam não apenas beleza, mas também desempenho.</p>
+
+        <p>Acreditamos que um carro clássico não é apenas um meio de transporte — é uma peça de história, um símbolo de elegância e sofisticação. Por isso, em cada modelo da nossa frota, você encontrará não apenas a estética de uma era, mas também a tradição de um legado automotivo que se mantém vivo e relevante, geração após geração.</p>
+
+        <h3>Políticas da Empresa</h3>
+        <p>Em <strong>I Classics</strong>, trabalhamos com transparência e compromisso com a excelência em cada etapa do processo. Nossas políticas são criadas para garantir a satisfação e a confiança de nossos clientes, mantendo a segurança, a qualidade e a experiência única que merecem. Aqui estão algumas das nossas principais políticas:</p>
+
+        <ul>
+            <li><strong>Segurança em Primeiro Lugar:</strong> Todos os nossos carros passam por inspeções periódicas e são mantidos conforme as normas de segurança para garantir que, durante o evento, você tenha a tranquilidade de que está dirigindo ou sendo conduzido em um veículo seguro.</li>
+            <li><strong>Aluguel Flexível:</strong> Oferecemos pacotes de aluguel flexíveis para atender às necessidades do seu evento, seja ele de poucas horas ou durante o dia inteiro. Além disso, trabalhamos com reservas personalizadas para garantir que o carro de sua preferência esteja disponível no dia e horário desejado.</li>
+            <li><strong>Atendimento Personalizado:</strong> Cada cliente é único. Nossa equipe está sempre à disposição para oferecer o melhor atendimento possível, ajudando na escolha do veículo ideal para o seu evento e oferecendo suporte durante todo o processo de reserva e contratação.</li>
+            <li><strong>Preços Transparentes:</strong> Em <strong>I Classics</strong>, prezamos pela honestidade e clareza nas nossas transações. Todos os preços são informados de forma detalhada, com a garantia de que não haverá surpresas durante o processo de contratação.</li>
+            <li><strong>Devolução e Cancelamento:</strong> Oferecemos um processo de devolução simples e rápido, sem complicações. Caso haja necessidade de cancelamento, nossos clientes têm à disposição um processo claro e justo, com políticas que priorizam a compreensão e o suporte adequado.</li>
+        </ul>
+
+        <h3>Nosso Compromisso com a Experiência do Cliente</h3>
+        <p>Nossa missão vai além do simples aluguel de carros — queremos proporcionar uma experiência que seja marcada pela excelência e pelo atendimento personalizado. Sabemos que a escolha do carro certo pode fazer toda a diferença no seu evento, e é por isso que nos dedicamos a entender suas necessidades, para entregar não apenas um carro, mas um pedaço da história automotiva que vai encantar e emocionar seus convidados.</p>
+
+        <a href="#contato" class="btn">Entre em contato conosco</a>
+    </section>
+
+    <!-- Seção de Carros -->
+    <section id="carros" class="decades">
+        <h3>Carros das Décadas</h3>
+        <div class="decade">
+            <h3>Década de 60</h3>
+            <p>Carros emblemáticos como o Chevrolet Impala, Mustang e Cadillac, que trazem toda a sofisticação e o estilo dos anos 60.</p>
+        </div>
+        <div class="decade">
+            <h3>Década de 70</h3>
+            <p>A década de 70 trouxe ícones como o Fusca, Chevrolet Chevette e o Ford Maverick, que marcaram a história de várias gerações.</p>
+        </div>
+        <div class="decade">
+            <h3>Década de 80</h3>
+            <p>Com a década de 80, surgiram modelos como o Mitsubishi Eclipse, o Volkswagen Gol e o Dodge Challenger, que se tornaram verdadeiros clássicos modernos.</p>
+        </div>
+        <div class="decade">
+            <h3>Década de 90</h3>
+            <p>A década de 90 trouxe o charme dos carros esportivos e dos modelos compactos, como o Ford Fiesta e o BMW Série 3.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 I Classics | Todos os direitos reservados</p>
+    </footer>
+
+    <!-- Scripts do Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
 
