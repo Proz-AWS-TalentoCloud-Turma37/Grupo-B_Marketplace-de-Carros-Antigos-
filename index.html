@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menu Responsivo com Submenu e Pesquisa - Bootstrap 5</title>
+    <title>IClassics</title>
     <!-- Bootstrap CSS -->
     <link href="asset/css/bootstrap.min.css" rel="stylesheet">
     <link href="asset/css/style.css" rel="stylesheet">
@@ -12,52 +12,56 @@
     <section>
 
         <header>
-        <!-- Navbar Responsiva -->
-        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark ">
-            <div class="container">
-                <!-- Logo do site ou nome -->
-                <a class="navbar-brand" href="#">MinhaLogo</a>
-
-            
-
-                <!-- Botão de colapso para telas menores -->
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <!-- Itens do menu -->
-                <div class="collapse navbar-collapse fontwhite" id="navbarNav">
-                    <ul class="navbar-nav ms-auto fontwhite">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Início</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Sobre</a>
-                        </li>
-                        
-                        <!-- Item com Submenu -->
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Serviços
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">Consultoria</a></li>
-                                <li><a class="dropdown-item" href="#">Desenvolvimento</a></li>
-                                <li><a class="dropdown-item" href="#">Suporte Técnico</a></li>
-                                <li><hr class="dropdown-divider"></li>
-                                <li><a class="dropdown-item" href="#">Outros Serviços</a></li>
-                            </ul>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contato</a>
-                        </li>
-                    </ul>
+            <!-- Navbar Responsiva -->
+            <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+                <div class="container">
+                    <!-- Logo do site ou nome -->
+                    <a class="navbar-brand" href="#">ICLassic</a>
+        
+                    <!-- Botão de colapso para telas menores -->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+        
+                    <!-- Itens do menu -->
+                    <div class="collapse navbar-collapse fontwhite" id="navbarNav">
+                        <ul class="navbar-nav ms-auto fontwhite">
+                            <li class="nav-item">
+                                <a class="nav-link custom-button active" aria-current="page" href="#">Início</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link custom-button" href="#">Sobre</a>
+                            </li>
+                            
+                            <!-- Item com Submenu -->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle custom-button" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Serviços
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item custom-button" href="#">Aluguel</a></li>
+                                    <li><a class="dropdown-item custom-button" href="#">Veículos a venda</a></li>
+                                    <li><a class="dropdown-item custom-button" href="#">Fale Conosco</a></li>                                    
+                                    <li><a class="dropdown-item custom-button" href="#">curadoria</a></li>
+                                </ul>
+                            </li>
+        
+                            <!-- Botão de cadastro -->
+                            <li class="nav-item">
+                                <a class="nav-link custom-button" href="#formularioCadastro">Cadastro</a>
+                            </li>
+        
+                            <li class="nav-item">
+                                <a class="nav-link custom-button" href="#">Contato</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-        </nav>
+            </nav>
         </header>
         <!-- fim menu nav -->
+
+        
 
          <!--início caroussel-->
            
@@ -76,7 +80,7 @@
                 <img src="asset/img/80/Passat_pointer.png?text=Slide+2" class="d-block w-100" alt="Slide 2">
                 <div class="carousel-caption d-none d-md-block">
                 <h5>Carros para passeios e eventos</h5>
-                <p>Alugue umclássico e se divirta peas ruas!</p>
+                <p>Alugue um clássico e se divirta peas ruas!</p>
                 </div>
             </div>
             <!-- Slide 3 -->
@@ -103,60 +107,309 @@
   <!--Fim Carousel-->
 
     </section>
+
+<!--Carros-->
+<section id="carros">
+    <div class="container-fluid corFundoInicio p-5">
+      <h2 class="text-center pb-5 ">Veiculos</h2>
+      <!--Veiculo 1-->
+      <div class="row row-cols-1 row-cols-md-4 g-4 pt-2">
+        <div class="col">
+          <div class="card">
+            <a type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop1">
+                <img src="asset/img/60/chev 29 1929 1.jpg" class="card-img-top" alt="400">
+                <div class="card-body">
+                  <h4 class="card-title text-center">CChev 1929</h4>
+                  <p class="card-text">Veículo disponível para Locação</p>
+                  
+                </div>
+            </a>
+          </div>
+      </div>
+      <!--fim veículos 1-->
+      <!--veículos 2-->
+      <div class="col">
+        <div class="card">
+          <a type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop2">
+              <img src="asset/img/90/Mercedes clk 320 1998.webp" class="card-img-top" alt="400">
+              <div class="card-body">
+                <h4 class="card-title text-center">Mercedes Bens CLK 320 - 1998</h4>
+                <p class="card-text">Veículo disponível para Vendas</p>
+                
+                
+              </div>
+          </a>
+        </div>
+      </div>
+      <!--fim veículos 2-->
+      <!--veículos 3 -->
+      <div class="col">
+        <div class="card">
+          <a type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop3">
+              <img src="asset/img/70/pumagts 1974 1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h4 class="card-title text-center">Puma GTS 1974</h4>
+                <p class="card-text">Disponível para venda</p>
+                
+              </div>
+          </a>
+        </div>
+      </div>
+      <!--fim veículos 3-->
+      <!--veículos 4 -->
+      <div class="col">
+        <div class="card">
+          <a type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop4">
+              <img src="asset/img/90/corvetecoup 1992 1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h4 class="card-title text-center">Corvete Coupe 1992</h4>
+                <p class="card-text">Disponível para venda</p>
+                
+              </div>
+          </a>
+        </div>
+      </div>
+      <!--fim veículos 4-->
+      <!--veículos 5 -->
+      <div class="col">
+        <div class="card">
+          <a type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop5">
+              <img src="asset/img/80/Escort_xr3_1986 1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h4 class="card-title text-center">Escorte XR3 1986</h4>
+                <p class="card-text">Disponível para Venda</p>
+                
+              </div>
+          </a>
+        </div>
+      </div>
+      <!--fim veículos 5-->
+      <!--veículos 6 -->
+      <div class="col">
+        <div class="card">
+          <a type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop6">
+              <img src="asset/img/90/bmw_325i_1994 1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h4 class="card-title text-center">BMW 325I 1994</h4>
+                <p class="card-text">Disponível para venda</p>
+                
+              </div>
+          </a>
+        </div>
+      </div>
+      <!--fim veículos 6-->
+      <!--veículos 7 -->
+      <div class="col">
+        <div class="card">
+          <a type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop7">
+              <img src="asset/img/60/Chev_deluxe_1951 1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h4 class="card-title text-center">Chevrolet De Luxe 1951 </h4>
+                <p class="card-text">Disponível para locação</p>
+                
+              </div>
+          </a>
+        </div>
+      </div>
+      <!--fim veículos 7-->
+      <!--veículos 8 -->
+      <div class="col">
+        <div class="card">
+          <a type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop8">
+              <img src="asset/img/70/MBSL350_1972 1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h4 class="card-title text-center">Mercedes Bens SL 350 1972</h4>
+                <p class="card-text">Disponível para locação</p>
+                
+              </div>
+          </a>
+        </div>
+      </div>
+    </div>
+      <!-- Modal veículos 1-->
+      <div class="modal fade" id="staticBackdrop1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="staticBackdropLabel">veículos 1</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-outline-success">Comprar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Modal veículos 2-->
+      <div class="modal fade" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="staticBackdropLabel">veículos 2</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              ...
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-outline-success">Comprar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Modal veículos 3-->
+      <div class="modal fade" id="staticBackdrop3" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="staticBackdropLabel">veículos 3</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              ...
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-outline-success">Comprar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Modal veículos 4-->
+      <div class="modal fade" id="staticBackdrop4" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="staticBackdropLabel">veículos 4</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              ...
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-outline-success">Comprar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+         <!-- Modal veículos 5-->
+         <div class="modal fade" id="staticBackdrop5" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+          <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="staticBackdropLabel">veículos 5</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                ...
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-outline-success">Comprar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Modal veículos 6-->
+        <div class="modal fade" id="staticBackdrop6" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+          <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="staticBackdropLabel">veículos 6</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                ...
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-outline-success">Comprar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Modal veículos 7-->
+        <div class="modal fade" id="staticBackdrop7" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+          <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="staticBackdropLabel">veículos 7</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                ...
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-outline-success">Comprar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Modal veículos 8-->
+        <div class="modal fade" id="staticBackdrop8" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+          <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="staticBackdropLabel">veículos 8</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                ...
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-outline-success">Comprar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </section>
+
+<!-- Seção de Cadastro -->
+<section id="formularioCadastro" class="container py-5">
+    <h2 class="text-center mb-4">Cadastro de Cliente</h2>
+    <form id="formCadastro" onsubmit="return cadastrarCliente(event)">
+        <div class="form-group">
+            <label for="nome">Nome</label>
+            <input type="text" class="form-control" id="nome" required>
+        </div>
+        <div class="form-group">
+            <label for="cpf">CPF</label>
+            <input type="text" class="form-control" id="cpf" required>
+        </div>
+        <div class="form-group">
+            <label for="telefone">Telefone</label>
+            <input type="tel" class="form-control" id="telefone" required>
+        </div>
+        <div class="form-group">
+            <label for="email">E-mail</label>
+            <input type="email" class="form-control" id="email" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar Cadastro</button>
+    </form>
+</section>
+<section>
+  
+</section>
+<script>
+    function cadastrarCliente(event) {
+        event.preventDefault();
+        const nome = document.getElementById('nome').value;
+        alert(`Cliente ${nome} cadastrado com sucesso!`);
+        document.getElementById('formCadastro').reset();
+    }
+</script>
+
+
 <!-- Bootstrap JS e dependências -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
-
-<section id="carros" class="container py-5">
-    <div class="row">
-        <div class="col-md-4">
-            <div class="card mb-4">
-                <img src="asset/img/90/Mercedes clk 320 1998.webp" class="card-img-top" alt="Carro Antigo 1" data-toggle="modal" data-target="#modalCarro1">
-                <div class="card-body">
-                    <h5 class="card-title">Mercedes Benz CLK320 1998</h5>
-                    <p class="card-text">Disponível para locação</p>
-                </div>
-            </div>
-        </div>
-        <!-- Repita para outros carros -->
-    </div>
-
-    <div class="col-md-4">
-        <div class="card mb-4">
-            <img src="asset/img/60/Buick 1955 1.jpg" class="card-img-top" alt="Carro Antigo 1" data-toggle="modal" data-target="#modalCarro1">
-            <div class="card-body">
-                <h5 class="card-title">Buick 1955</h5>
-                <p class="card-text">Disponível para locação e eventos especiais</p>
-            </div>
-        </div>
-    </div>
-    <!-- Repita para outros carros -->
-    </div>
-    <div class="col-md-4">
-        <div class="card mb-4">
-            <img src="asset/img/70/pumagts 1974 1.jpg" class="card-img-top" alt="Carro Antigo 1" data-toggle="modal" data-target="#modalCarro1">
-            <div class="card-body">
-                <h5 class="card-title">Puma GTS 1974</h5>
-                <p class="card-text">Disponível para Venda ou Troca </p>
-            </div>
-        </div>
-    </div>
-    <!-- Repita para outros carros -->
-    </div>
-
-    <div class="col-md-4">
-        <div class="card mb-4">
-            <img src="asset/img/90/corvetecoup 1992 1.jpg" class="card-img-top" alt="Carro Antigo 1" data-toggle="modal" data-target="#modalCarro1">
-            <div class="card-body">
-                <h5 class="card-title">Corvete Coupe 1992</h5>
-                <p class="card-text">Disponível para locação</p>
-            </div>
-        </div>
-    </div>
-    <!-- Repita para outros carros -->
-    </div>
-    </div>
-
-</section>
-
