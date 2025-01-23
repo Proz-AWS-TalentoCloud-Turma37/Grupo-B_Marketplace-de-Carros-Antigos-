@@ -74,3 +74,55 @@
             icon.classList.add("bi-eye");
         }
     }
+    document.getElementById('cadastroForm').addEventListener('submit', function (event) {
+        event.preventDefault(); // Evita envio do formulário se inválido
+        event.stopPropagation(); // Impede propagação do evento
+    
+        const form = event.target;
+        const camposObrigatorios = Array.from(form.querySelectorAll('[required]'));
+        let formValido = true;
+    
+        // Remove alertas anteriores
+        form.querySelectorAll('.alert').forEach(alert => alert.remove());
+    
+        // Valida campos obrigatórios
+        camposObrigatorios.forEach(campo => {
+            if (!campo.checkValidity()) {
+                formValido = false;
+                criarAlerta(campo, 'Este campo é obrigatório ou está inválido.');
+            }
+        });
+    
+        // Valida correspondência das senhas
+        const senha = form.querySelector('#senha').value;
+        const confirmarSenha = form.querySelector('#confirmarSenha').value;
+        if (senha !== confirmarSenha) {
+            formValido = false;
+            criarAlerta(form.querySelector('#confirmarSenha'), 'As senhas não correspondem.');
+        }
+    
+        if (formValido) {
+            alert('Cadastro realizado com sucesso!');
+            form.submit(); // Submete o formulário se tudo estiver válido
+        }
+    });
+    
+    function criarAlerta(campo, mensagem) {
+        const alerta = document.createElement('div');
+        alerta.className = 'alert alert-danger mt-2';
+        alerta.textContent = mensagem;
+        campo.insertAdjacentElement('afterend', alerta); // Adiciona alerta abaixo do campo
+    }
+    
+    function togglePassword(inputId) {
+        const input = document.getElementById(inputId);
+        const icon = document.querySelector(`#${inputId}-icon`);
+        if (input.type === 'password') {
+            input.type = 'text';
+            icon.className = 'bi bi-eye-slash';
+        } else {
+            input.type = 'password';
+            icon.className = 'bi bi-eye';
+        }
+    }
+    
