@@ -12,21 +12,236 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css" rel="stylesheet">
 </head>
 <body>
-    <!-- Navbar -->
-    <div id="menu-container"></div>
-
     <!-- carousel Section -->
     <div id="carousel-container"></div>
-
-
-    <!--6 utlimos veiculos a venda ou aluguel-->
-    <section id="Veiculos" class="container py-5">
-        <div class="d-flex justify-content-between mb-3">
-            <h2>Veiculos</h2>
-            <a href="veiculos.html">Saiba Mais</a>
+<!-- inicio do Menu-->
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top bg-blue bg-gradient text-white">
+        <div class="container-fluid">
+            <a class="navbar-brand d-flex justify-content-start text-white" href="index.html">Iclassic</a>
+            <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item ">
+                        <a class="nav-link text-white" href="index.html">Início</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link text-white dropdown-toggle" href="veiculos.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Veiculos
+                        </a>
+                        <ul class="dropdown-menu bg-blue">
+                            <li class="nav-item">
+                                <a class="dropdown-item text-white" href="aluguel.html">Aluguel</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="dropdown-item text-white" href="vendas.html">Vendas</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="midia.html">Midia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="faq.html">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link text-white" data-bs-toggle="modal" data-bs-target="#cadastroModal" data-bs-dismiss="modal">Cadastre-se</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="carrinho.html"><i class="bi bi-cart4"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a type="button" class="btn btn-outline-light ms-3" data-bs-toggle="modal" data-bs-target="#agendamentoModal" href="#"><i class="bi bi-box-arrow-in-right"></i> Entrar</a>
+                    </li>
+                </ul>
+            </div>
         </div>
+    </nav>
+    <!-- Modal for login -->
+    <div class="modal fade" id="agendamentoModal" tabindex="-1" aria-labelledby="agendamentoModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header text-center">
+                    <h5 class="modal-title w-100" id="agendamentoModalLabel">Entre e agende seu horário</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="loginForm" action="" method="GET" novalidate>        
+                            <div class="mb-3">
+                                <input type="text" name="username" class="form-control" id="username" placeholder="Email" required>
+                            </div>
+                        <div class="mb-3">
+                            <div class="input-group">
+                                <input type="password" name="password" class="form-control" id="password" placeholder="Senha" required>
+                                <button type="button" class="btn  border border-secondary-subtle rounded-end" onclick="togglePassword('password')">
+                                    <i class="bi bi-eye" id="password-icon"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <!-- Alert de erro (invisível por padrão) -->
+                        <div id="alertContainer" class="alert alert-danger d-none" role="alert">
+                            <ul id="errorList" class="mb-0"></ul>
+                        </div>
+                        <div class="mb-3 d-flex justify-content-center">
+                            <button type="reset" class="btn btn-danger me-4">Limpar</button>
+                            <button type="submit" class="btn btn-success">Entrar</button>  
+                        </div>
+                        <!-- Alert de erro (invisível por padrão) -->
+                        <div id="alertContainer" class="alert alert-danger d-none" role="alert">
+                            <ul id="errorList" class="mb-0"></ul>
+                        </div>
 
-        <!--coloca aqui o exemplo de veiculos só um-->
+                    </form>
+                    <div class="text-center"><span>OU</span></div>
+                    
+                    <div class="mt-1 mb-4 text-center">
+                        Não tem uma conta?
+                        <a href="#" class="text-primary text-decoration-none" data-bs-toggle="modal" data-bs-target="#cadastroModal" data-bs-dismiss="modal">Cadastre-se</a>
+                    </div>
+                    <div class="d-flex align-items-center mt-3">
+                        <hr class="flex-grow-1" />
+                        <button type="button"
+                        class="btn btn-light px-3 mx-2 d-flex align-items-center justify-content-center">
+                        <img class="border-opacity-10" src="https://developers.google.com/identity/images/g-logo.png"
+                            alt="Google" width="30px">
+                        </button>
+                        <hr class="flex-grow-1" />
+                    </div>
+                </div>   
+            </div>
+        </div>
+    </div>
+    <!-- Modal for Cadastro -->
+    <div class="modal fade" id="cadastroModal" tabindex="-1" aria-labelledby="cadastroModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header text-center">
+                    <h5 class="modal-title w-100" id="cadastroModalLabel">Cadastre-se</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="cadastroForm" action="sign_in.html" method="POST" class="needs-validation" novalidate>
+                            <!-- Nome -->
+                            <div class="mb-3">
+                                <input type="text" name="nome" class="form-control" id="nome" placeholder="Nome" required>
+
+                            </div>
+                            <!-- Sobrenome -->
+                            <div class="mb-3">
+                                <input type="text" name="sobrenome" class="form-control" id="sobrenome" placeholder="Sobrenome" required>
+
+                            </div>
+                            <!-- Celular e WhatsApp -->
+                            <div class="mb-3 d-flex justify-content-between">
+                                <input type="text" name="celular" class="form-control me-2" id="celular" placeholder="Celular" pattern="\\d{11}" required>
+
+                                <input type="text" name="whatsapp" class="form-control" id="whatsapp" placeholder="WhatsApp" pattern="\\d{11}">
+
+                            </div>
+                            <!-- Endereço -->
+                            <div class="mb-3">
+                                <input type="text" name="endereco" class="form-control" id="endereco" placeholder="Endereço" required>
+
+                            </div>
+                            <!-- Estado e Cidade -->
+                            <div class="mb-3 d-flex justify-content-between">
+                                <select name="estado" class="form-select me-2" required>
+                                <option value="" selected>Estado</option>
+                                <option value="Acre">Acre</option>
+                                <option value="Alagoas">Alagoas</option>
+                                <option value="Amapá">Amapá</option>
+                                <option value="Amazonas">Amazonas</option>
+                                <option value="Bahia">Bahia</option>
+                                <option value="Ceará">Ceará</option>
+                                <option value="Distrito Federal">Distrito Federal</option>
+                                <option value="Espírito Santo">Espírito Santo</option>
+                                <option value="Goiás">Goiás</option>
+                                <option value="Maranhão">Maranhão</option>
+                                <option value="Mato Grosso">Mato Grosso</option>
+                                <option value="Mato Grosso do Sul">Mato Grosso do Sul</option>
+                                <option value="Minas Gerais">Minas Gerais</option>
+                                <option value="Pará">Pará</option>
+                                <option value="Paraíba">Paraíba</option>
+                                <option value="Paraná">Paraná</option>
+                                <option value="Pernambuco">Pernambuco</option>
+                                <option value="Piauí">Piauí</option>
+                                <option value="Rio de Janeiro">Rio de Janeiro</option>
+                                <option value="Rio Grande do Norte">Rio Grande do Norte</option>
+                                <option value="Rio Grande do Sul">Rio Grande do Sul</option>
+                                <option value="Rondônia">Rondônia</option>
+                                <option value="Roraima">Roraima</option>
+                                <option value="Santa Catarina">Santa Catarina</option>
+                                <option value="São Paulo">São Paulo</option>
+                                <option value="Sergipe">Sergipe</option>
+                                <option value="Tocantins">Tocantins</option>
+                                <option value="Estrangeiro">Estrangeiro</option>
+                                </select>
+
+                                <input type="text" name="cidade" class="form-control" id="cidade" placeholder="Cidade" required>
+
+                            </div>
+                            <!-- CPF e Data de Nascimento -->
+                            <div class="mb-3 d-flex justify-content-between">
+                                <input type="text" name="cpf" class="form-control me-2" id="cpf" placeholder="CPF" pattern="\\d{11}" required>
+
+                                <input type="date" name="data_nascimento" class="form-control" id="dataNascimento" placeholder="Data de Nascimento" required>
+
+                            </div>
+                            <!-- Email -->
+                            <div class="mb-3">
+                                <input type="email" name="username" class="form-control" id="email" placeholder="Email" required>
+
+                            </div>
+                            <!-- Senha -->
+                            <div class="mb-3">
+                                <div class="input-group">
+                                    <input type="password" name="senha" class="form-control" id="senha" placeholder="Senha" required>
+                                    <button type="button" class="btn  border border-secondary-subtle rounded-end" onclick="togglePassword('senha')">
+                                        <i class="bi bi-eye" id="senha-icon"></i>
+                                    </button>
+
+                                </div>
+                            </div>
+                            <!-- Confirmar Senha -->
+                            <div class="mb-3">
+                                <div class="input-group">
+                                    <input type="password" name="confirmar_senha" class="form-control" id="confirmarSenha" placeholder="Confirme sua senha" required>
+                                    <button type="button" class="btn border border-secondary-subtle rounded-end" onclick="togglePassword('confirmarSenha')">
+                                        <i class="bi bi-eye" id="confirmarSenha-icon"></i>
+                                    </button>
+
+                                </div>
+                            </div>
+                            <!-- Botões -->
+                            <div class="mb-3 d-flex justify-content-center">
+                                <button type="reset" class="btn btn-danger me-4">Limpar</button>
+                                <button type="submit" class="btn btn-success">Cadastrar</button>
+                            </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- fim do Menu-->
+    <section id="Aluguel_vendas">
+   
+    <div class="container mt-5">
+        <div class="d-flex justify-content-between mb-3">
+            <h2>Aluguel de Veiculos</h2>
+            <a href="aluguel.html">Saiba Mais</a>
+        </div>
+        <div id="carros-aluguel-container" class="row"></div>
+    </div>
+    <div class="container mt-5">
+        <div class="d-flex justify-content-between mb-3">
+            <h2>Veículos à Venda</h2>
+            <a href="vendas.html">Saiba Mais</a>
+        </div>
+        <div id="carros-vendas-container" class="row"></div>
+    </div>
+
     </section>
 
     <!-- Mídia Section -->
@@ -71,48 +286,16 @@
         <div class="container">
             <h2>Comentários</h2>
             <div class="row">
-                <div class="col-md-4">
+
+                <div class="col-12 col-md-4">
                     <div class="card mb-3">
                         <div class="card-body">
                             <p class="card-text">"A experiência foi maravilhosa! Ótimo atendimento e ambiente acolhedor."</p>
                             <h5 class="card-title">- Ana Maria</h5>
                         </div>
                     </div>
-                    <div class="card mb-3">
-                        <div class="card-body">
-                            <p class="card-text">"Equipe muito profissional e atenciosa. Recomendo a todos!"</p>
-                            <h5 class="card-title">- João Silva</h5>
-                        </div>
-                    </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="card mb-3">
-                        <div class="card-body">
-                            <p class="card-text">"Equipe muito profissional e atenciosa. Recomendo a todos!"</p>
-                            <h5 class="card-title">- João Silva</h5>
-                        </div>
-                    </div>
-                    <div class="card mb-3">
-                        <div class="card-body">
-                            <p class="card-text">"Equipe muito profissional e atenciosa. Recomendo a todos!"</p>
-                            <h5 class="card-title">- João Silva</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card mb-3">
-                        <div class="card-body">
-                            <p class="card-text">"Equipe muito profissional e atenciosa. Recomendo a todos!"</p>
-                            <h5 class="card-title">- João Silva</h5>
-                        </div>
-                    </div>
-                    <div class="card mb-3">
-                        <div class="card-body">
-                            <p class="card-text">"Equipe muito profissional e atenciosa. Recomendo a todos!"</p>
-                            <h5 class="card-title">- João Silva</h5>
-                        </div>
-                    </div>
-                </div>
+
             </div>
         </div>
     </section>
@@ -139,8 +322,16 @@
     </section>
     <!-- Footer -->
     <div id="footer-container"></div>
+    <!-- incluir bd mock-->
+    <script src="assets/js/login.js"></script>
+     <!-- incluir bd mock-->
+     <script src="assets/js/carrosAluguel.js"></script>
+     <!-- incluir bd mock-->
+     <script src="assets/js/carrosVendas.js"></script>
     <!-- incluir footer e rodapé-->
     <script src="assets/js/includes.js"></script>
+    <!-- incluir footer e rodapé-->
+    <script src="assets/js/script.js"></script>
     <!-- Bootstrap js -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
 </body>

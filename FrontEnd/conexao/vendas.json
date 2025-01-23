@@ -1,0 +1,66 @@
+[
+  {
+      "id": 1,
+      "imagem": "assets/img/alugar/60/Buick 1955 1.jpg",
+      "modelo": "BUICK",
+      "ano": "1955/1955",
+      "preco": 900.00,
+      "descricao": "BUICK - 1955/1955 - FINAL: 7 - AZUL - GASOLINA"
+  },
+  {
+      "id": 2,
+      "imagem": "assets/img/alugar/61/ford_mustang_1967.jpg",
+      "modelo": "FORD MUSTANG",
+      "ano": "1967/1967",
+      "preco": 1500.00,
+      "descricao": "FORD MUSTANG - 1967/1967 - FINAL: 3 - VERMELHO - GASOLINA"
+  },
+  {
+      "id": 3,
+      "imagem": "assets/img/alugar/62/chevrolet_impala_1964.jpg",
+      "modelo": "CHEVROLET IMPALA",
+      "ano": "1964/1964",
+      "preco": 1300.00,
+      "descricao": "CHEVROLET IMPALA - 1964/1964 - FINAL: 5 - PRETO - GASOLINA"
+  },
+  {
+      "id": 4,
+      "imagem": "assets/img/alugar/63/dodge_charger_1969.jpg",
+      "modelo": "DODGE CHARGER",
+      "ano": "1969/1969",
+      "preco": 1700.00,
+      "descricao": "DODGE CHARGER - 1969/1969 - FINAL: 8 - LARANJA - GASOLINA"
+  },
+  {
+    "id": 1,
+    "imagem": "assets/img/alugar/60/Buick 1955 1.jpg",
+    "modelo": "BUICK",
+    "ano": "1955/1955",
+    "preco": 900.00,
+    "descricao": "BUICK - 1955/1955 - FINAL: 7 - AZUL - GASOLINA"
+},
+{
+    "id": 2,
+    "imagem": "assets/img/alugar/61/ford_mustang_1967.jpg",
+    "modelo": "FORD MUSTANG",
+    "ano": "1967/1967",
+    "preco": 1500.00,
+    "descricao": "FORD MUSTANG - 1967/1967 - FINAL: 3 - VERMELHO - GASOLINA"
+},
+{
+    "id": 3,
+    "imagem": "assets/img/alugar/62/chevrolet_impala_1964.jpg",
+    "modelo": "CHEVROLET IMPALA",
+    "ano": "1964/1964",
+    "preco": 1300.00,
+    "descricao": "CHEVROLET IMPALA - 1964/1964 - FINAL: 5 - PRETO - GASOLINA"
+},
+{
+    "id": 4,
+    "imagem": "assets/img/alugar/63/dodge_charger_1969.jpg",
+    "modelo": "DODGE CHARGER",
+    "ano": "1969/1969",
+    "preco": 1700.00,
+    "descricao": "DODGE CHARGER - 1969/1969 - FINAL: 8 - LARANJA - GASOLINA"
+}
+]

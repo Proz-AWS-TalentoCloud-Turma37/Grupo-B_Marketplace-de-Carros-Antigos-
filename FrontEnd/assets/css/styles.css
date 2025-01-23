@@ -31,3 +31,6 @@ height: 350px;
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../img/fundoSignIn.webp")  no-repeat center !important;
             color: aliceblue;
 }
+.card-img-top{
+    height: 200px;
+}
