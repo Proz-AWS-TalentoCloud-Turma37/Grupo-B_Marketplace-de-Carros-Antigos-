@@ -1,9 +1,32 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+  font-family: "Roboto", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.dancing-script {
+  font-family: "Dancing Script", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
 #comentarios {
     background: url('../img/comentarios.webp') no-repeat center center fixed;
     background-size: cover;
     color: #fff;
 }
 #comentarios h2 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+/*Carrossel*/
+.shadow-text{
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 .carousel-control-prev,
