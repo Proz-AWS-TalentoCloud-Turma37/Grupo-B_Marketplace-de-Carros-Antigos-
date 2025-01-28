@@ -57,58 +57,58 @@
     },
     {
         "id": 5,
-        "imagem": "assets/img/alugar/90/santana89/san1.webp",
+        "imagem": "assets/img/alugar/80/santana89/san1.webp",
         "modelo": "SANTANA GLS",
         "ano": "1989/1989",
         "preco": 950.00,
         "descricao": "VW Santana GLS - Dourado - Gasolina - Direção hidráulica - Manual - Motor 2.0",
         "imagensAdicionais": [
-          "assets/img/alugar/90/santana89/san2.webp",
-          "assets/img/alugar/90/santana89/san3.webp",
-          "assets/img/alugar/90/santana89/san4.webp",
-          "assets/img/alugar/90/santana89/san5.webp"
+          "assets/img/alugar/80/santana89/san2.webp",
+          "assets/img/alugar/80/santana89/san3.webp",
+          "assets/img/alugar/80/santana89/san4.webp",
+          "assets/img/alugar/80/santana89/san5.webp"
       ]
     },
     {
       "id": 6,
-      "imagem": "assets/img/vendas/60/cobra/01.jpg",
-      "modelo": "COBRA",
-      "ano": "1968/1968",
+      "imagem": "assets/img/alugar/90/mbt99/mbt1.webp",
+      "modelo": "MERCEDES BENZ C230",
+      "ano": "1999/1999",
       "preco": 1500.00,
-      "descricao": "FORD MUSTANG - 1967/1967 - FINAL: 3 - VERMELHO - GASOLINA",
+      "descricao": "Mercedes Benz C230 Touring - Preto - Gasolina - Direção hidráulica - Automático - Motor 4 cilindros Kompressor",
       "imagensAdicionais": [
-        "assets/img/vendas/60/cobra/02.jpg",
-        "assets/img/vendas/60/cobra/03.jpg",
-        "assets/img/vendas/60/cobra/04.jpg",
-        "assets/img/vendas/60/cobra/05.jpg"
+        "assets/img/alugar/90/mbt99/mbt2.webp",
+        "assets/img/alugar/90/mbt99/mbt3.webp",
+        "assets/img/alugar/90/mbt99/mbt4.webp",
+        "assets/img/alugar/90/mbt99/mbt5.webp"
       ]
     },
     {
         "id": 7,
-        "imagem": "assets/img/vendas/60/cobra/01.jpg",
-        "modelo": "COBRA",
-        "ano": "1968/1968",
-        "preco": 1500.00,
-        "descricao": "FORD MUSTANG - 1967/1967 - FINAL: 3 - VERMELHO - GASOLINA",
+        "imagem": "assets/img/alugar/60/willys66/will1.webp",
+        "modelo": "JEEP WILLYS",
+        "ano": "1966/1966",
+        "preco": 930.00,
+        "descricao": "Jeep Willys CJ5 - 1966/1966 - Amarelo - Gasolina - Direção manual - Motor 6 cilindros",
         "imagensAdicionais": [
-          "assets/img/vendas/60/cobra/02.jpg",
-          "assets/img/vendas/60/cobra/03.jpg",
-          "assets/img/vendas/60/cobra/04.jpg",
-          "assets/img/vendas/60/cobra/05.jpg"
+         "assets/img/alugar/60/willys66/will2.webp",
+         "assets/img/alugar/60/willys66/will3.webp",
+         "assets/img/alugar/60/willys66/will4.webp",
+         "assets/img/alugar/60/willys66/will5.webp"
       ]
     },
     {
         "id": 8,
-        "imagem": "assets/img/vendas/60/cobra/01.jpg",
-        "modelo": "COBRA",
-        "ano": "1968/1968",
-        "preco": 1500.00,
-        "descricao": "FORD MUSTANG - 1967/1967 - FINAL: 3 - VERMELHO - GASOLINA",
+        "imagem": "assets/img/alugar/70/mb72/mb1.webp",
+        "modelo": "MERCEDES BENZ SL 350",
+        "ano": "1972/1972",
+        "preco": 2600.00,
+        "descricao": "Mercedes Benz SL 350 - 1972/1972 - Branco - Gasolina - Direção hidráulica - Automático - Motor V8",
         "imagensAdicionais": [
-          "assets/img/vendas/60/cobra/02.jpg",
-          "assets/img/vendas/60/cobra/03.jpg",
-          "assets/img/vendas/60/cobra/04.jpg",
-          "assets/img/vendas/60/cobra/05.jpg"
+          "assets/img/alugar/70/mb72/mb2.webp",
+          "assets/img/alugar/70/mb72/mb3.webp",
+          "assets/img/alugar/70/mb72/mb4.webp",
+          "assets/img/alugar/70/mb72/mb5.webp"
       ]
     }
   ]
