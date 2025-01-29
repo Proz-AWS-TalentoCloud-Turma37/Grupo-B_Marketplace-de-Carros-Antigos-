@@ -1,16 +1,16 @@
 [
   {
       "id": 1,
-      "imagem": "assets/img/vendas/60/cobra/01.jpg",
-      "modelo": "COBRA",
-      "ano": "1968/1968",
-      "preco": 1500.00,
-      "descricao": "FORD MUSTANG - 1967/1967 - FINAL: 3 - VERMELHO - GASOLINA",
+      "imagem": "assets/img/vendas/70/corvette78/cor1.jpg",
+      "modelo": "CHEVROLET CORVETTE 25TH",
+      "ano": "1978/1978",
+      "preco": 2400.00,
+      "descricao": "Chevrolet Corvette - Prata - Gasolina Direção hidráulica - Motor V8",
       "imagensAdicionais": [
-        "assets/img/vendas/60/cobra/02.jpg",
-        "assets/img/vendas/60/cobra/03.jpg",
-        "assets/img/vendas/60/cobra/04.jpg",
-        "assets/img/vendas/60/cobra/05.jpg"
+        "assets/img/vendas/70/corvette78/cor1.jpg",
+        "assets/img/vendas/70/corvette78/cor1.jpg",
+        "assets/img/vendas/70/corvette78/cor1.jpg",
+        "assets/img/vendas/70/corvette78/cor1.jpg"
     ]
   },
   {
