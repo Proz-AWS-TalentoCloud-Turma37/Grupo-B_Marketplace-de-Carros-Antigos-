@@ -14,17 +14,17 @@
     ]
   },
   {
-    "id": 2,
-    "imagem": "assets/img/vendas/70/fusca76/fus1.webp",
-    "modelo": "FUSCA 1300",
-    "ano": "1976/1976",
-    "preco": 1500.00,
-    "descricao": "VW Fusca 1300 - Amarelo - Gasolina - Direção mecânica - Motor 1300",
-    "imagensAdicionais": [
-      "assets/img/vendas/70/fusca76/fus2.webp",
-      "assets/img/vendas/70/fusca76/fus3.webp",
-      "assets/img/vendas/70/fusca76/fus4.webp",
-      "assets/img/vendas/70/fusca76/fus5.webp"
+      "id": 2,
+      "imagem": "assets/img/vendas/70/fusca76/fus1.webp",
+      "modelo": "VW FUSCA 1300",
+      "ano": "1976/1976",
+      "preco": 1500.00,
+      "descricao": "VW Fusca 1300 - Amarelo - Gasolina - Direção mecânica - Motor 1300",
+      "imagensAdicionais": [
+        "assets/img/vendas/70/fusca76/fus2.webp",
+        "assets/img/vendas/70/fusca76/fus3.webp",
+        "assets/img/vendas/70/fusca76/fus4.webp",
+        "assets/img/vendas/70/fusca76/fus5.webp"
     ]
   },
   {
