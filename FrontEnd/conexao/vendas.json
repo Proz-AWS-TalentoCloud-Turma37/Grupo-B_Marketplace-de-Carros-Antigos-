@@ -2,10 +2,10 @@
   {
       "id": 1,
       "imagem": "assets/img/vendas/70/corvette78/cor1.jpg",
-      "modelo": "CHEVROLET CORVETTE 25TH",
+      "modelo": "CORVETTE 25TH",
       "ano": "1978/1978",
       "preco": 2400.00,
-      "descricao": "Chevrolet Corvette - Prata - Gasolina Direção hidráulica - Motor V8",
+      "descricao": "Chevrolet Corvette - Prata - Gasolina - Direção hidráulica - Motor V8",
       "imagensAdicionais": [
         "assets/img/vendas/70/corvette78/cor1.jpg",
         "assets/img/vendas/70/corvette78/cor1.jpg",
@@ -15,100 +15,100 @@
   },
   {
     "id": 2,
-    "imagem": "assets/img/vendas/70/fusca79/fus1.webp",
-    "modelo": "COBRA",
-    "ano": "1968/1968",
+    "imagem": "assets/img/vendas/70/fusca76/fus1.webp",
+    "modelo": "FUSCA 1300",
+    "ano": "1976/1976",
     "preco": 1500.00,
-    "descricao": "FORD MUSTANG - 1967/1967 - FINAL: 3 - VERMELHO - GASOLINA",
+    "descricao": "VW Fusca 1300 - Amarelo - Gasolina - Direção mecânica - Motor 1300",
     "imagensAdicionais": [
-      "assets/img/vendas/60/cobra/02.jpg",
-      "assets/img/vendas/60/cobra/03.jpg",
-      "assets/img/vendas/60/cobra/04.jpg",
-      "assets/img/vendas/60/cobra/05.jpg"
+      "assets/img/vendas/70/fusca76/fus2.webp",
+      "assets/img/vendas/70/fusca76/fus3.webp",
+      "assets/img/vendas/70/fusca76/fus4.webp",
+      "assets/img/vendas/70/fusca76/fus5.webp"
     ]
   },
   {
       "id": 3,
-      "imagem": "assets/img/vendas/60/cobra/01.jpg",
-      "modelo": "COBRA",
-      "ano": "1968/1968",
-      "preco": 1500.00,
-      "descricao": "FORD MUSTANG - 1967/1967 - FINAL: 3 - VERMELHO - GASOLINA",
+      "imagem": "assets/img/vendas/60/jaguar64/jg1.webp",
+      "modelo": "JAGUAR TYPE S",
+      "ano": "1964/1964",
+      "preco": 3000.00,
+      "descricao": "Jaguar Type S - Verde - Gasolina - Direção hidráulica - Motor 6 cilindros 3.8",
       "imagensAdicionais": [
-        "assets/img/vendas/60/cobra/02.jpg",
-        "assets/img/vendas/60/cobra/03.jpg",
-        "assets/img/vendas/60/cobra/04.jpg",
-        "assets/img/vendas/60/cobra/05.jpg"
+        "assets/img/vendas/60/jaguar64/jg2.webp",
+        "assets/img/vendas/60/jaguar64/jg3.webp",
+        "assets/img/vendas/60/jaguar64/jg4.webp",
+        "assets/img/vendas/60/jaguar64/jg5.webp"
     ]
   },
   {
       "id": 4,
-      "imagem": "assets/img/vendas/60/cobra/01.jpg",
-      "modelo": "COBRA",
+      "imagem": "assets/img/vendas/60/mercedes68/mb(1).webp",
+      "modelo": "MERCEDES BENZ 8",
       "ano": "1968/1968",
-      "preco": 1500.00,
-      "descricao": "FORD MUSTANG - 1967/1967 - FINAL: 3 - VERMELHO - GASOLINA",
-      "imagensAdicionais": [
-        "assets/img/vendas/60/cobra/02.jpg",
-        "assets/img/vendas/60/cobra/03.jpg",
-        "assets/img/vendas/60/cobra/04.jpg",
-        "assets/img/vendas/60/cobra/05.jpg"
+      "preco": 2500.00,
+      "descricao": "Mercedes Benz 8 250 - Azul - Gasolina - Direção hidráulica - Motor 6 cilindros",
+      "imagensAdicionais": [ 
+        "assets/img/vendas/60/mercedes68/mb(2).webp",
+        "assets/img/vendas/60/mercedes68/mb(3).webp",
+        "assets/img/vendas/60/mercedes68/mb(4).webp",
+        "assets/img/vendas/60/mercedes68/mb(5).webp"
     ]
   },
   {
       "id": 5,
-      "imagem": "assets/img/vendas/60/cobra/01.jpg",
-      "modelo": "COBRA",
-      "ano": "1968/1968",
-      "preco": 1500.00,
-      "descricao": "FORD MUSTANG - 1967/1967 - FINAL: 3 - VERMELHO - GASOLINA",
+      "imagem": "assets/img/vendas/80/chevette88/che1.webp",
+      "modelo": "CHEVETTE SL",
+      "ano": "1988/1988",
+      "preco": 1000.00,
+      "descricao": "Chevette SL - Verde - Gasolina - Direção mecãnica - Motor 4 cilindros",
       "imagensAdicionais": [
-        "assets/img/vendas/60/cobra/02.jpg",
-        "assets/img/vendas/60/cobra/03.jpg",
-        "assets/img/vendas/60/cobra/04.jpg",
-        "assets/img/vendas/60/cobra/05.jpg"
+        "assets/img/vendas/80/chevette88/che2.webp",
+        "assets/img/vendas/80/chevette88/che3.webp",
+        "assets/img/vendas/80/chevette88/che4.webp",
+        "assets/img/vendas/80/chevette88/che5.webp"
     ]
   },
   {
     "id": 6,
-    "imagem": "assets/img/vendas/60/cobra/01.jpg",
-    "modelo": "COBRA",
-    "ano": "1968/1968",
-    "preco": 1500.00,
-    "descricao": "FORD MUSTANG - 1967/1967 - FINAL: 3 - VERMELHO - GASOLINA",
+    "imagem": "assets/img/vendas/80/mercedes80/mb.1.webp",
+    "modelo": "MERCEDES BENZ 500",
+    "ano": "1980/1980",
+    "preco": 2300.00,
+    "descricao": "Mercedes Benz 500 SLC - Marrom - Gasolina - Direção hidráulica - Automático - Motor 6 cilindros",
     "imagensAdicionais": [
-      "assets/img/vendas/60/cobra/02.jpg",
-      "assets/img/vendas/60/cobra/03.jpg",
-      "assets/img/vendas/60/cobra/04.jpg",
-      "assets/img/vendas/60/cobra/05.jpg"
+      "assets/img/vendas/80/mercedes80/mb.2.webp",
+      "assets/img/vendas/80/mercedes80/mb.3.webp",
+      "assets/img/vendas/80/mercedes80/mb.4.webp",
+      "assets/img/vendas/80/mercedes80/mb.5.webp"
     ]
   },
   {
       "id": 7,
-      "imagem": "assets/img/vendas/60/cobra/01.jpg",
-      "modelo": "COBRA",
-      "ano": "1968/1968",
-      "preco": 1500.00,
-      "descricao": "FORD MUSTANG - 1967/1967 - FINAL: 3 - VERMELHO - GASOLINA",
+      "imagem": "assets/img/vendas/90/fusca95/fs1.webp",
+      "modelo": "FUSCA ITAMAR",
+      "ano": "1995/1995",
+      "preco": 1700.00,
+      "descricao": "Fusca Itamar - Azul - Gasolina - Direção mecanica - Manual - Motor 1600",
       "imagensAdicionais": [
-        "assets/img/vendas/60/cobra/02.jpg",
-        "assets/img/vendas/60/cobra/03.jpg",
-        "assets/img/vendas/60/cobra/04.jpg",
-        "assets/img/vendas/60/cobra/05.jpg"
+        "assets/img/vendas/90/fusca95/fs2.webp",
+        "assets/img/vendas/90/fusca95/fs3.webp",
+        "assets/img/vendas/90/fusca95/fs4.webp",
+        "assets/img/vendas/90/fusca95/fs5.webp",
     ]
   },
   {
       "id": 8,
-      "imagem": "assets/img/vendas/60/cobra/01.jpg",
-      "modelo": "COBRA",
-      "ano": "1968/1968",
-      "preco": 1500.00,
-      "descricao": "FORD MUSTANG - 1967/1967 - FINAL: 3 - VERMELHO - GASOLINA",
+      "imagem": "assets/img/vendas/90/saveiro94/sv1.webp",
+      "modelo": "SAVEIRO SURFER",
+      "ano": "1994/1994",
+      "preco": 1900.00,
+      "descricao": "Saveiro Surfer - Vinho - Gasolina - Direção hidráulica - Manual - Motor 1.8S",
       "imagensAdicionais": [
-        "assets/img/vendas/60/cobra/02.jpg",
-        "assets/img/vendas/60/cobra/03.jpg",
-        "assets/img/vendas/60/cobra/04.jpg",
-        "assets/img/vendas/60/cobra/05.jpg"
+        "assets/img/vendas/90/saveiro94/sv2.webp",
+        "assets/img/vendas/90/saveiro94/sv3.webp",
+        "assets/img/vendas/90/saveiro94/sv4.webp",
+        "assets/img/vendas/90/saveiro94/sv5.webp"
     ]
   }
 ]
