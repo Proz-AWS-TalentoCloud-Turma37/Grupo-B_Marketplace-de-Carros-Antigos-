@@ -2,9 +2,9 @@
   {
       "id": 1,
       "imagem": "assets/img/vendas/70/corvette78/cor1.jpg",
-      "modelo": "CORVETTE 25TH",
+      "modelo": "CORVETTE",
       "ano": "1978/1978",
-      "preco": 2400.00,
+      "preco": 240000.00,
       "descricao": "Chevrolet Corvette - Prata - Gasolina - Direção hidráulica - Motor V8",
       "imagensAdicionais": [
         "assets/img/vendas/70/corvette78/cor1.jpg",
@@ -18,7 +18,7 @@
       "imagem": "assets/img/vendas/70/fusca76/fus1.webp",
       "modelo": "VW FUSCA 1300",
       "ano": "1976/1976",
-      "preco": 1500.00,
+      "preco": 150000.00,
       "descricao": "VW Fusca 1300 - Amarelo - Gasolina - Direção mecânica - Motor 1300",
       "imagensAdicionais": [
         "assets/img/vendas/70/fusca76/fus2.webp",
@@ -32,7 +32,7 @@
       "imagem": "assets/img/vendas/60/jaguar64/jg1.webp",
       "modelo": "JAGUAR TYPE S",
       "ano": "1964/1964",
-      "preco": 3000.00,
+      "preco": 300000.00,
       "descricao": "Jaguar Type S - Verde - Gasolina - Direção hidráulica - Motor 6 cilindros 3.8",
       "imagensAdicionais": [
         "assets/img/vendas/60/jaguar64/jg2.webp",
@@ -44,9 +44,9 @@
   {
       "id": 4,
       "imagem": "assets/img/vendas/60/mercedes68/mb(1).webp",
-      "modelo": "MERCEDES BENZ 8",
-      "ano": "1968/1968",
-      "preco": 2500.00,
+      "modelo": "MERCEDES 8",
+      "ano": "1968",
+      "preco": 250000.00,
       "descricao": "Mercedes Benz 8 250 - Azul - Gasolina - Direção hidráulica - Motor 6 cilindros",
       "imagensAdicionais": [ 
         "assets/img/vendas/60/mercedes68/mb(2).webp",
@@ -60,7 +60,7 @@
       "imagem": "assets/img/vendas/80/chevette88/che1.webp",
       "modelo": "CHEVETTE SL",
       "ano": "1988/1988",
-      "preco": 1000.00,
+      "preco": 100000.00,
       "descricao": "Chevette SL - Verde - Gasolina - Direção mecãnica - Motor 4 cilindros",
       "imagensAdicionais": [
         "assets/img/vendas/80/chevette88/che2.webp",
@@ -72,9 +72,9 @@
   {
     "id": 6,
     "imagem": "assets/img/vendas/80/mercedes80/mb.1.webp",
-    "modelo": "MERCEDES BENZ 500",
-    "ano": "1980/1980",
-    "preco": 2300.00,
+    "modelo": "MERCEDES 500",
+    "ano": "1980",
+    "preco": 230000.00,
     "descricao": "Mercedes Benz 500 SLC - Marrom - Gasolina - Direção hidráulica - Automático - Motor 6 cilindros",
     "imagensAdicionais": [
       "assets/img/vendas/80/mercedes80/mb.2.webp",
@@ -88,7 +88,7 @@
       "imagem": "assets/img/vendas/90/fusca95/fs1.webp",
       "modelo": "FUSCA ITAMAR",
       "ano": "1995/1995",
-      "preco": 1700.00,
+      "preco": 170000.00,
       "descricao": "Fusca Itamar - Azul - Gasolina - Direção mecanica - Manual - Motor 1600",
       "imagensAdicionais": [
         "assets/img/vendas/90/fusca95/fs2.webp",
@@ -102,7 +102,7 @@
       "imagem": "assets/img/vendas/90/saveiro94/sv1.webp",
       "modelo": "SAVEIRO SURFER",
       "ano": "1994/1994",
-      "preco": 1900.00,
+      "preco": 190000.00,
       "descricao": "Saveiro Surfer - Vinho - Gasolina - Direção hidráulica - Manual - Motor 1.8S",
       "imagensAdicionais": [
         "assets/img/vendas/90/saveiro94/sv2.webp",

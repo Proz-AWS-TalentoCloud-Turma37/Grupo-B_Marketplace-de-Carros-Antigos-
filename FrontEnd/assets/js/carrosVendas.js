@@ -13,7 +13,7 @@ async function carregarCarros() {
             const imagensAdicionais = carro.imagensAdicionais || []; // Garante que seja um array
 
             card.innerHTML = `
-            <div class="card">
+            <div class="card card-tamanho-produtos">
                 <div id="carousel${carro.id}" class="carousel slide">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
@@ -37,10 +37,10 @@ async function carregarCarros() {
                 <div class="card-body">
                     <h4 class="text-center">${carro.modelo} - ${carro.ano}</h4>
                     <div class="text-center">
-                        <button type="button" class="btn btn-lg mt-2 btn-outline-info" data-bs-toggle="modal" data-bs-target="#modal${carro.id}">
+                        <button type="button" class="btn btn-lg mt-2 btn-outline-info" data-bs-toggle="modal" data-bs-target="#modalvendas${carro.id}">
                            <i class="bi bi-eye"></i>
                         </button>
-                        <button type="button" class="btn btn-lg mt-2 btn-outline-success" onclick="alugarCarro(${carro.id})">
+                        <button type="button" class="btn btn-lg mt-2 btn-outline-success" onclick="vendaCarro(${carro.id})">
                             <i class="bi bi-cart-plus"></i>
                         </button>
                     </div>
@@ -48,11 +48,11 @@ async function carregarCarros() {
             </div>
 
             <!-- Modal Bootstrap -->
-            <div class="modal fade" id="modal${carro.id}" tabindex="-1" aria-labelledby="modalLabel${carro.id}" aria-hidden="true">
+            <div class="modal fade" id="modalvendas${carro.id}" tabindex="-1" aria-labelledby="modalvendasLabel${carro.id}" aria-hidden="true">
                 <div class="modal-dialog">
                     <div class="modal-content">
                         <div class="modal-header bg-blue">
-                            <h5 class="modal-title" id="modalLabel${carro.id}">Detalhes do Carro</h5>
+                            <h5 class="modal-title" id="modalvendasLabel${carro.id}">Detalhes do Carro</h5>
                             <button type="button" class="btn text-white" data-bs-dismiss="modal" aria-label="Close"><i class="bi bi-x-lg fs-5"></i></button>
                         </div>
                         <div class="modal-body">
@@ -84,7 +84,7 @@ async function carregarCarros() {
                             <button type="button" class="btn btn-outline-danger me-2" data-bs-dismiss="modal"> 
                                 <i class="bi bi-box-arrow-in-left"></i> Voltar
                             </button>
-                            <button type="button" class="btn btn-outline-success" onclick="alugarCarro(${carro.id})">
+                            <button type="button" class="btn btn-outline-success" onclick="vendaCarro(${carro.id})">
                                 <i class="bi bi-cart-plus"></i> Comprar
                             </button>
                         </div>
@@ -101,7 +101,7 @@ async function carregarCarros() {
     }
 }
 
-function alugarCarro(id) {
+function vendaCarro(id) {
     alert(`Você escolheu comprar o carro ID: ${id}`);
 }
 
