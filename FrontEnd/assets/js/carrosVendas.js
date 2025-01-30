@@ -102,7 +102,7 @@ async function carregarCarros() {
 }
 
 function vendaCarro(id) {
-    alert(`Você escolheu comprar o carro ID: ${id}`);
+    alert(`Você adicionou o veículo no carrinho`);
 }
 
 // Carrega os carros ao carregar a página

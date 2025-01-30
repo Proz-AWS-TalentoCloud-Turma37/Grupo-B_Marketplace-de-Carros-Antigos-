@@ -103,7 +103,7 @@
     }
     
     function alugarCarro(id) {
-        alert(`Você escolheu comprar o carro ID: ${id}`);
+        alert(`Carro adicionado com sucesso no carrinho`);
     }
     
     // Carrega os carros ao carregar a página
