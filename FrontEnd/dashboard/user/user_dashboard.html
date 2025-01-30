@@ -14,6 +14,10 @@
         body{
             background-color: rgb(208, 208, 208);
         }
+        img{
+            width: 300px;
+            border-radius: 12px;
+        }
     </style>
 </head>
 <body>
@@ -22,7 +26,7 @@
 
     <section id="conteudo">
         <div class="container">
-            <h2 class="text-center">Bem-vindo ao Dashboard</h2>
+            <h2 class="text-center">João, seja bem-vindo</h2>
             <p class="text-center">Gerencie as vendas e aluguéis de veículos antigos.</p>
     
             <!-- Painel com informações do usuário -->
@@ -30,7 +34,7 @@
                 <div class="col-12 col-md-12 mb-3">
                     <div class="card">
                         <div class="card-body">
-                            <h5 class="card-title">Informações do Usuário</h5>
+                            <h5 class="card-title mt-3 mb-3 text-center">SUAS INFORMAÇÕES</h5>
                             <p>Nome: João da Silva</p>
                             <p>Email: joao@email.com</p>
                             <p>Tipo: Cliente</p>
@@ -43,10 +47,12 @@
                 <div class="col-12 col-md-4">
                     <div class="card">
                         <div class="card-body">
-                            <h5 class="card-title">Vendas</h5>
+                            <h5 class="card-title mt-3 mb-3 text-center">VENDAS</h5>
                             <p>Total de vendas: 15</p>
                             <p>Última venda: F100 - 1960</p>
-                            <button class="btn btn-primary">Ver detalhes</button>
+                            <div class="text-center">
+                                <button class="btn btn-primary">Ver detalhes</button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -55,10 +61,12 @@
                 <div class="col-12 col-md-4">
                     <div class="card">
                         <div class="card-body">
-                            <h5 class="card-title">Aluguéis</h5>
+                            <h5 class="card-title mt-3 mb-3 text-center">ALUGUÉIS</h5>
                             <p>Total de aluguéis: 8</p>
                             <p>Último aluguel: Kombi - 1975</p>
-                            <button class="btn btn-primary">Ver detalhes</button>
+                            <div class="text-center">
+                                <button class="btn btn-primary">Ver detalhes</button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -66,10 +74,12 @@
                 <div class="col-12 col-md-4">
                     <div class="card">
                         <div class="card-body">
-                            <h5 class="card-title">Mensagens</h5>
+                            <h5 class="card-title mt-3 mb-3 text-center">Mensagens</h5>
                             <p>Você tem 3 novas mensagens sobre aluguel.</p>
                             <p>Você tem 1 mensagem para sobre a venda.</p>
+                        <div class="text-center">
                             <button class="btn btn-primary">Ver mensagens</button>
+                        </div>
                         </div>
                     </div>
                 </div>
@@ -79,23 +89,25 @@
                 <div class="col-12 col-md-12">
                     <div class="card">
                         <div class="card-body">
-                            <h5 class="card-title">Seus Veículos Disponíveis</h5>
+                            <h4 class="card-title mt-3 mb-3 text-center">SEUS VEÍCULOS DISPONÍVEIS</h4>
                             <!-- Linha com 3 imagens -->
                             <div class="row">
                                 <div class="col-4">
-                                    <img src="foto_f100.jpg" alt="F100 - 1960" class="img-fluid">
-                                    <p>F100 - 1960</p>
+                                    <img src="../../assets/img/alugar/60/willys66/will1.webp" alt="Jeep Willys 1966" class="img-fluid">
+                                    <p>Jeep Willys 1966</p>
                                 </div>
                                 <div class="col-4">
-                                    <img src="foto_kombi.jpg" alt="Kombi - 1975" class="img-fluid">
-                                    <p>Kombi - 1975</p>
+                                    <img src="../../assets/img/vendas/90/saveiro94/sv1.webp" alt="Saveiro 1994" class="img-fluid">
+                                    <p>Saveiro - 1994</p>
                                 </div>
                                 <div class="col-4">
-                                    <img src="foto_chevette.jpg" alt="Chevette - 1982" class="img-fluid">
-                                    <p>Chevette - 1982</p>
+                                    <img src="../../assets/img/vendas/80/chevette88/che1.webp" alt="Chevette 1988" class="img-fluid">
+                                    <p>Chevette - 1988</p>
                                 </div>
                             </div>
-                            <button class="btn btn-primary">Ver todos</button>
+                            <div class="text-center">
+                                <button class="btn btn-primary">Ver todos</button>
+                            </div>
                         </div>
                     </div>
                 </div>                

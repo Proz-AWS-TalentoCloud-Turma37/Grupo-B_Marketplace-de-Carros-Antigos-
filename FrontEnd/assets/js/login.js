@@ -25,8 +25,8 @@
 
         // Credenciais simuladas e redirecionamento para páginas específicas
         const users = {
-            'admin@example.com': 'dashboard/admin/admin_dashboard.html',
-            'user@example.com': 'dashboard/user/user_dashboard.html'
+            'admin@email.com': 'dashboard/admin/admin_dashboard.html',
+            'joao@email.com': 'dashboard/user/user_dashboard.html'
         };
 
         if (users.hasOwnProperty(username) && password === '123456') {
