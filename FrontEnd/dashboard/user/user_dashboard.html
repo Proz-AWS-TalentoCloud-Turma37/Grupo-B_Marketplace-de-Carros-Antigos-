@@ -18,6 +18,10 @@
             width: 300px;
             border-radius: 12px;
         }
+        .tamanho{
+            width: 100px;
+            height: 100px;
+        }
     </style>
 </head>
 <body>
@@ -26,24 +30,34 @@
 
     <section id="conteudo">
         <div class="container">
-            <h2 class="text-center">João, seja bem-vindo</h2>
-            <p class="text-center">Gerencie as vendas e aluguéis de veículos antigos.</p>
-    
+            <div class="card mb-3">
+                <h2 class="text-center mt-2">João, seja bem-vindo</h2>
+                <p class="text-center">Gerencie as vendas e aluguéis de veículos antigos.</p>
+            </div>
             <!-- Painel com informações do usuário -->
-            <div class="row">
-                <div class="col-12 col-md-12 mb-3">
+            <div class="row mb-3">
+                <div class="col-12 col-md-12">
                     <div class="card">
                         <div class="card-body">
                             <h5 class="card-title mt-3 mb-3 text-center">SUAS INFORMAÇÕES</h5>
-                            <p>Nome: João da Silva</p>
-                            <p>Email: joao@email.com</p>
-                            <p>Tipo: Cliente</p>
+                            <div class="row">
+                                <div class="col-12 col-md-5">
+                                    <p>Nome: João da Silva</p>
+                                    <p>Email: joao@email.com</p>
+                                    <p>Tipo: Cliente</p>
+                                </div>
+                                <div class="col-12 col-md-6 m-3 text-center">
+                                    <button class="tamanho btn btn-outline-primary me-3">Atualizar Senha</button>
+                                    <button class="tamanho btn btn-outline-primary">Atualizar Perfil</button>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+
+            <!-- Painel de vendas -->
             <div class="row">
-                <!-- Painel de vendas -->
                 <div class="col-12 col-md-4">
                     <div class="card">
                         <div class="card-body">
@@ -51,12 +65,12 @@
                             <p>Total de vendas: 15</p>
                             <p>Última venda: F100 - 1960</p>
                             <div class="text-center">
-                                <button class="btn btn-primary">Ver detalhes</button>
+                                <button class="btn btn-outline-primary">Ver detalhes</button>
                             </div>
                         </div>
                     </div>
                 </div>
-    
+
                 <!-- Painel de aluguéis -->
                 <div class="col-12 col-md-4">
                     <div class="card">
@@ -65,55 +79,70 @@
                             <p>Total de aluguéis: 8</p>
                             <p>Último aluguel: Kombi - 1975</p>
                             <div class="text-center">
-                                <button class="btn btn-primary">Ver detalhes</button>
+                                <button class="btn btn-outline-primary">Ver detalhes</button>
                             </div>
                         </div>
                     </div>
                 </div>
-           
+                <!-- Painel de mensagens -->
                 <div class="col-12 col-md-4">
                     <div class="card">
                         <div class="card-body">
                             <h5 class="card-title mt-3 mb-3 text-center">Mensagens</h5>
-                            <p>Você tem 3 novas mensagens sobre aluguel.</p>
-                            <p>Você tem 1 mensagem para sobre a venda.</p>
-                        <div class="text-center">
-                            <button class="btn btn-primary">Ver mensagens</button>
-                        </div>
+                            <div class="text-center">
+                                <button type="button" class="btn btn-outline-primary position-relative mb-3 rounded-pill">
+                                    Aluguel
+                                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                                     5
+                                      <span class="visually-hidden">Mensagens Aluguel</span>
+                                    </span>
+                                </button>
+                                <br>
+                                <button type="button" class="btn btn-outline-primary position-relative rounded-pill mb-4">
+                                    Vendas
+                                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                                     9
+                                      <span class="visually-hidden">Mensagens Vendas</span>
+                                    </span>
+                                  </button>
+                            </div>
                         </div>
                     </div>
                 </div>
-        </div>
+            </div>
+
             <!-- Painel de veículos -->
             <div class="row mt-3 mb-3">
                 <div class="col-12 col-md-12">
                     <div class="card">
-                        <div class="card-body">
+                        <div class="card-body text-center">
                             <h4 class="card-title mt-3 mb-3 text-center">SEUS VEÍCULOS DISPONÍVEIS</h4>
                             <!-- Linha com 3 imagens -->
                             <div class="row">
                                 <div class="col-4">
                                     <img src="../../assets/img/alugar/60/willys66/will1.webp" alt="Jeep Willys 1966" class="img-fluid">
-                                    <p>Jeep Willys 1966</p>
+                                    <p class="mt-1 fs-5">Jeep Willys 1966</p>
+                                    <p class="mt-1">Venda</p>
                                 </div>
                                 <div class="col-4">
                                     <img src="../../assets/img/vendas/90/saveiro94/sv1.webp" alt="Saveiro 1994" class="img-fluid">
-                                    <p>Saveiro - 1994</p>
+                                    <p class="mt-1 fs-5">Saveiro - 1994</p>
+                                    <p class="mt-1">Aluguel</p>
                                 </div>
                                 <div class="col-4">
                                     <img src="../../assets/img/vendas/80/chevette88/che1.webp" alt="Chevette 1988" class="img-fluid">
-                                    <p>Chevette - 1988</p>
+                                    <p class="mt-1 fs-5">Chevette - 1988</p>
+                                    <p class="mt-1">Aluguel</p>
                                 </div>
                             </div>
-                            <div class="text-center">
-                                <button class="btn btn-primary">Ver todos</button>
+                            <div class="text-center mb-3 mt-3">
+                                <button class="btn btn-outline-primary">Ver todos</button>
                             </div>
                         </div>
                     </div>
                 </div>                
             </div>
         </div>
-    
     </section>
 
      <!-- footer -->
