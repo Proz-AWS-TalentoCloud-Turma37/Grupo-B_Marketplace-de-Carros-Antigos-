@@ -2,7 +2,7 @@
 
 ## Sistema desenvolvido por: Adamis, Filipe, Rúbia e Suzana
 
-[Acesse o Site](frontend/index.html)
+[Acesse o Site](index.html)
 
 ### Sobre
 
